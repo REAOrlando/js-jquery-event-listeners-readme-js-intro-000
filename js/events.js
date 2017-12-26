@@ -2,6 +2,6 @@
 
 $(document).ready(function(){
 
-$('img').on("mouseover", function() {
+$('img').on("load", function() {
   console.log("clicked")
 });

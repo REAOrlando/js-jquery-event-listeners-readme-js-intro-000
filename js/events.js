@@ -18,6 +18,7 @@ $(document).ready(function(){
 //getIt()
 $('p').on('click', function() {
   alert("Hey!");
+  console.log("it worked!");
 })
 
 

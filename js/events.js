@@ -1,11 +1,21 @@
 //define functions here
-$('img').on('load', function() {
-  console.log("clicked")
-)};
+function getIt() {
+    $('p').on('click', function() {
+      alert("Hey!");
+    })
+}
+
+
+
+
+
+
+
+
 
 $(document).ready(function(){
 
-
+getIt()
 
 
 

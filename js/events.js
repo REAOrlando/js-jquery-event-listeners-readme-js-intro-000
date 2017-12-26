@@ -15,8 +15,10 @@ function getIt() {
 
 $(document).ready(function(){
 
-getIt()
-
+//getIt()
+$('p').on('click', function() {
+  alert("Hey!");
+})
 
 
 });

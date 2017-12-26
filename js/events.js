@@ -5,6 +5,11 @@ function getIt() {
     })
 }
 
+function frameIt() {
+  $('img').on('load', function() {
+    img.append(.tasty);
+  )}
+}
 
 
 
@@ -16,7 +21,7 @@ function getIt() {
 $(document).ready(function(){
 
 getIt()
-
+frameIt()
 
 
 });

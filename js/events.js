@@ -2,6 +2,6 @@
 
 $(document).ready(function(){
 
-// call functions here
-
+$('h1').on("clicked", function() {
+  console.log("clicked")
 });
